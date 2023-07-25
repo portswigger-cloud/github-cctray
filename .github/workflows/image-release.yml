@@ -1,0 +1,9 @@
+name: Image Build
+
+on:
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
